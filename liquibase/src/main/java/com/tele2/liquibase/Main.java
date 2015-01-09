@@ -11,8 +11,7 @@ public class Main {
          
         // Get a bean instance
         Reader reader = applicationContext.getBean("dbReader", Reader.class);
-         
-        // Execute SpringCoreHelloWorld bean's method
+
         reader.read();
     }
 }
